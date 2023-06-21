@@ -1,0 +1,22 @@
+/*Dropdown Button*/
+.dropbtn{
+    background-color: midnightblue;
+    color:floralwhite;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+/*The search field*/
+#myInput{
+    box-sizing: border-box;
+    background-image: url(strawberry-pie.jpg);
+    background-position: 13px 11px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    padding: 13px 19px 11px 43px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+/* The search field when it gets focus/clicked on */
+#myInput:focus {outline: 3px solid #ddd;}
