@@ -1,0 +1,19 @@
+body {
+   background-image: linear-gradient(to bottom right, blueviolet,rgb(233,125,224),rgb(248, 66, 66),rgb(236,236,27));
+}
+.xyz {
+   border:solid 1px;
+   display:block;
+   width: 580px;
+   height: 610px;
+   background-color: whitesmoke;
+   max-width: 900px;
+   margin: auto;
+}
+   
+h1{
+   text-align: justify; 
+   text-decoration-color: rgb(236, 91, 91);
+   font-family: monospace,Arial,sans-serif;
+   font-weight: lighter;
+}
