@@ -2,13 +2,15 @@
 <html>
     <head>
         <title> Survey Form</title>
+        <link rel="stylesheet" href="survey form.css">
     </head>
     <body>
         <form>
             <div class="container">
-                <body style="background-color:rosybrown">
+                <body style="background-color:rgb(116, 156, 231);">
             <h3 style="text-align:center"><u> Survey Form</h3></u>
             <br>
+        <div class="xyz">    
             <h4 style="text-align:center">Let us know how we can improve freeCodeCamp</h4>
             <h4 style="text-align:center"></style> *Name <input size="45" type="text" placeholder="Enter your name"></h4>
             <h4 style="text-align:center"></style> *Email <input size="45" type="text" placeholder="Enter your Email"></h4>
@@ -18,18 +20,29 @@
                  <option value="0">Student</option>
                  <option value="0">Married</option>
                  <option value="0">Unmarried</option>
-                </select>
-            <h4 style="text-align:center"></style> *How likely is that you would recommend <input type="Radio" placeholder="yes" size="10">Definitely
-            <h4 style="text-align:center"></style> freeCodeCamp to a friend? <input type="Radio"name="May be">May be<input type="Radio" placeholder="Not Sure">Not Sure  
+                </select><br><br><br>
+            <h> *How likely is that you would recommend 
+                <input type="Radio" placeholder="yes" size="10">Definitely<br>
+            <h>freeCodeCamp to a friend? </h>
+            <div style="margin-top: -20px; margin-left:280px">
+            <input type="Radio"name="May be">May be<br>
+            <input type="Radio" placeholder="Not Sure">Not Sure  
+            </div>
             <h4 style="text-align:center"></style> What do you like most in FCC: 
                 <select>e</option>
-                    <option value="0">select an option</option>
-                    <option value="0"></option>
-                    <option value="0"></option>
-                    </select>
-            <h4 style="text-align:center"></style> Things that should be improved in the future <input type="Radio">Front-end Projects <br> 
-             <input type="Radio">Back-end projects<br>
-             <input type="Radio"> Data visualization
+                    <option>select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                    </select><br><br>
+            <h style="margin-left:-110px">Things that should be improved in the future <br>
+                <h>(Check all that apply):
+                <div style="margin-top:-35px; margin-left: 350px;">  
+             <input type="checkbox">Front-end Projects <br> 
+             <input type="checkbox">Back-end projects<br>
+             <input type="checkbox"> Data visualization
+        </div>     
         </form>
 
     </body>
